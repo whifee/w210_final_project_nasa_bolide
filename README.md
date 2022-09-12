@@ -8,4 +8,15 @@ Link to docs:
 
 - Week 4 Slides:
 
-- Team Presentation 1 (Week 5): 
+- Team Presentation 1 (Week 5):
+
+
+Link to Data:
+- Output of the existing Random Forest model: TBD (to be handed over by NASA)
+- Analyst vetted (aka classified) Bolides: 
+  - Best source: * down due to heatwave/supercomputer center being down
+  - Current source: (Analyst vetted and de-classified)
+- GOES imagery: 
+
+Link to Colab notebooks (if ipynb not loaded in Github):
+- 
