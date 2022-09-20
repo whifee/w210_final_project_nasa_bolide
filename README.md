@@ -9,3 +9,4 @@ Data Descriptions:
  - `fs_file_output_bolide_pkg.csv`: this is all of the potential bolides with lat longs
  - `vetted_data.csv`: these are the analyst classified bolides from the public site
  - `potential_with_vetted.csv`: this is the joined file of all the potential bolides and the vetted analyst classified bolides (and has an is_bolide field)
+   - all ETL for this combining is housed in a Colab Notebook on Drive: `NASA_Bolide.ipynb`
