@@ -2,23 +2,10 @@
 
 Github space for w210 Nasa Bolide Team for Collaboration as appropriate
 
-Link to docs:
-- Team Process Agreement: https://docs.google.com/document/d/1_jgYcpcdg-dZBKNquRfpwZ46Qr8NtxiJGQSPM4QqHAQ/edit?usp=sharing
+All Docs/Data/Colab Notebooks located here in this Google Drive:
+- https://drive.google.com/drive/u/1/folders/18IaG37JXl8x8RvfA6RKxQCcaS_O8KOOj
 
-- Week 4 Writeup: https://docs.google.com/document/d/1NeSNfv2ozY_j68BL-kVrrrBjs1Fce3jFHieoaxIoDes/edit?usp=sharing
-
-- Week 4 Slides: https://docs.google.com/presentation/d/1X9OB7gIoH_XxPi28Y75T2vF0TyRZkgCAYzYIaKVgp5c/edit?usp=sharing
-
-- Team Presentation 1 (Week 5): TBD
-
-
-Link to Data:
-- Output of the existing Random Forest model: TBD (to be handed over by NASA)
-- Analyst vetted (aka classified) Bolides: 
-  - Best source (recommended by NASA): https://neo-bolide.ndc.nasa.gov/#/
-  - Alternate source: (Analyst vetted and de-classified - what was googled initially/found) https://cneos.jpl.nasa.gov/fireballs/
-- GOES imagery: avl.class.noaa.gov/saa/products/search?sub_id=0&datatype_family=GRABIPRD&submit.x=28&submit.y=11
-- GLM data: https://www.avl.class.noaa.gov/saa/products/search?sub_id=0&datatype_family=GRGLMPROD&submit.x=20&submit.y=1
-
-Link to Colab notebooks (if ipynb not loaded in Github):
-- https://colab.research.google.com/drive/1qJ64788FI6-WZT6ksHUNXKWvnKXqiU2J?usp=sharing
+Data Descriptions:
+ - `fs_file_output_bolide_pkg.csv`: this is all of the potential bolides with lat longs
+ - `vetted_data.csv`: these are the analyst classified bolides from the public site
+ - `potential_with_vetted.csv`: this is the joined file of all the potential bolides and the vetted analyst classified bolides (and has an is_bolide field)
