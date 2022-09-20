@@ -4,6 +4,17 @@ Github space for w210 Nasa Bolide Team for Collaboration as appropriate
 
 All Docs/Data/Colab Notebooks located here in this Google Drive:
 - https://drive.google.com/drive/u/1/folders/18IaG37JXl8x8RvfA6RKxQCcaS_O8KOOj
+  - We should be able to pull down data like so:
+    ```
+    import pandas as pd
+    from google.colab import drive
+    drive.mount('/content/drive')
+
+    # Example read csv from google drive
+
+    potential_with_vetted = pd.read_csv('/content/drive/MyDrive/w210_final_project_nasa_bolide/Data/potential_with_vetted.csv')
+    potential_with_vetted.head()
+   ```
 
 Data Descriptions:
  - `fs_file_output_bolide_pkg.csv`: this is all of the potential bolides with lat longs
