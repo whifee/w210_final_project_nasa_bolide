@@ -13,9 +13,7 @@ All Docs/Data/Colab Notebooks located here in this Google Drive:
     # Example read csv from google drive
 
     potential_with_vetted = pd.read_csv('/content/drive/MyDrive/w210_final_project_nasa_bolide/Data/potential_with_vetted.csv')
-    potential_with_vetted.head()
-    
-   ```
+    potential_with_vetted.head()```
    
 Data Descriptions:
  - `fs_file_output_bolide_pkg.csv`: this is all of the potential bolides with lat longs
