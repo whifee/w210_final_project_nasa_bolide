@@ -14,8 +14,9 @@ All Docs/Data/Colab Notebooks located here in this Google Drive:
 
     potential_with_vetted = pd.read_csv('/content/drive/MyDrive/w210_final_project_nasa_bolide/Data/potential_with_vetted.csv')
     potential_with_vetted.head()
+    
    ```
-
+   
 Data Descriptions:
  - `fs_file_output_bolide_pkg.csv`: this is all of the potential bolides with lat longs
    - This is a combination of the .fs files Jeff gave us from NASA. All fs file combination for this had to be done local with the `bolides` python package (that package doesn't work in cloud environments since you have to pip install -e from directly inside the repository (there are some uncommitted changes)
